@@ -7,7 +7,7 @@ from PyPDF2 import PdfReader
 # 1. 網頁基礎與 UI 設置
 # ==========================================
 st.set_page_config(page_title="澳科大逗留天數計算器", page_icon="🎓", layout="centered")
-st.title("🎓 澳科大內地生逗留天數計算器 (終極完整版)")
+st.title("🎓 澳科大內地生逗留天數計算器)
 st.markdown("""
 上傳從國家移民管理局下載的《出入境記錄查詢結果》PDF，系統將為你：
 * 🔄 自動識別出入境狀態（**出境=進入澳門，入境=返回內地**）
